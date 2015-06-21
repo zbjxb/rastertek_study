@@ -5,6 +5,10 @@
 //////////////
 #include <windows.h>
 
+///////////////////////
+// MY CLASS INCLUDES //
+///////////////////////
+#include "d3dclass.h"
 
 /////////////
 // GLOBALS //
@@ -30,5 +34,5 @@ private:
 	bool Render();
 
 private:
-
+	D3DClass* m_D3D;
 };
